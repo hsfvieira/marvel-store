@@ -1,0 +1,55 @@
+.comic {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 10px;
+    justify-content: space-between;
+    transition: border 0.2s;
+}
+
+.comic:hover {
+    border: 1px solid black;
+}
+
+.comic div {
+    display: flex;
+    flex-direction: column;
+}
+
+.comic h1 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.comic h2 {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.comic button {
+    background-color: transparent;
+    border: 1.5px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    color: red;
+    transition: background-color 0.2s, color 0.2s, transform 0.1s;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.comic button:hover {
+    transform: scale(1.05);
+}
+
+.comic button:active {
+    background-color: red;
+    color: white;
+}

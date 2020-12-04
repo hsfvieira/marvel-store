@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.alert {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    display: none;
+    align-items: stretch;
+}
+
+.alert * {
+    margin: 10px;
+}
+
+.button-pagination {
+    display: flex;
+    align-items: stretch;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.button-pagination:hover {
+    border-color: black;
+}
+
+
+.container-pagination {
+    display: flex;
+    margin: 10px;
+}
